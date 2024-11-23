@@ -1,6 +1,7 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import './App.css'
 import Layout from './Layout/Layout'
+import Home from './Pages/Home'
 
 function App() {
   const myRoute = createBrowserRouter(
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <>
-    <RouterProvider router={myRoute} />
+    <RouterProvider router={myRoute}/>
       
     </>
   )
